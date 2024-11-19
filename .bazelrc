@@ -1,3 +1,0 @@
-build --workspace_status_command=bin/workspace-status --stamp
-run --workspace_status_command=bin/workspace-status --stamp
-

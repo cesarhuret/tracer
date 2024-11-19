@@ -1,18 +1,11 @@
-# OpenChain Monorepo
+# Tracer
 
-This monorepo contains all the code which powers [OpenChain](https://openchain.xyz)
+This repo was forked from the Openchain transaction tracer [View Here](https://github.com/openchainxyz/openchain-monorepo)
 
-## Getting Started
 
-You'll need to install Bazel. Then, you can run individual microservices like this:
+## Running Locally
 
-```
-bazel run //cmd/some-random-srv:some-random-srv
-```
-
-You can run the frontend like this
-
-```
-pnpm install
-pnpm run dev
-```
+1. Fill in the .env.example
+2. Rename it to .env
+3. `pnpm install`
+4. `pnpm dev`
